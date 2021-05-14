@@ -6,7 +6,7 @@ const getHead = (data) => [
   R.compose(
     R.concat(['']),
     R.flatten,
-    R.map(x => moment(x).format('YYYY-MM-DD')),
+    R.map(x => moment.utc(x).format('YYYY-MM-DD')),
     R.map(R.head),
     R.propOr([], 'values'),
     R.head
