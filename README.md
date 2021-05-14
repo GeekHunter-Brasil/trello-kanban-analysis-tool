@@ -1,7 +1,5 @@
 [![Build Status](https://travis-ci.org/nicoespeon/trello-kanban-analysis-tool.svg?branch=develop)](https://travis-ci.org/nicoespeon/trello-kanban-analysis-tool)
 
-> :point_up: I no longer maintain this project as I'm not using Trello anymore. It could change in the future, but no guarantee. If you'd like to contribute, reach me out <nicolascarlo.espeon@gmail.com>. Otherwise, feel free to fork.
-
 # TKAT (Trello Kanban Analysis Tool)
 
 A JavaScript library to analyze Kanban metrics from a Trello board.
